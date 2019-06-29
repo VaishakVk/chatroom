@@ -1,0 +1,12 @@
+import React from "react";
+
+const message = props => {
+  return (
+    <div>
+      <span>{props.username} : </span>
+      <p>{props.message}</p>
+    </div>
+  );
+};
+
+export default message;
